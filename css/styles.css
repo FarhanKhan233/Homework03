@@ -1,0 +1,19 @@
+.title{
+	color: red; border: 5px solid darkgreen; 
+}
+
+#l{
+	color: #0000cc; background: rgb(255, 255, 0);
+}
+
+kbd{
+	border: 1px solid black;
+}
+
+mark{
+	background: red;
+}
+
+.table{
+	border: 1px solid black;
+}

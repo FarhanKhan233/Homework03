@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Homework3</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+ <main>
+   <h1 class="title">Lorem Ipsum</h1>
+
+   <p id="l"><ins>Lorem Ipsum</ins> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing <u>Lorem Ipsum</u> passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+   <p id="i">You can press <kbd>Ctrl</kbd> + <kbd>C</kbd> to <mark>copy</mark> text</p>
+ </main>
+
+  <p>The time of the class is from <time>22:00</time> to <time>24:00</time></p><br>
+  <p>I have a class today<time datetime="2024-01-07 22:15"></p><br>
+
+  	
+
+
+  <ol>
+      <li>Red</li>
+      <li>Blue</li>
+      <li>Green</li>
+  </ol>
+
+ <ul>
+   <li>Red</li>
+   <li>Blue</li>
+   <li>Green</li>
+ </ul> 
+
+ <h1>The menu element</h1>
+
+ <menu>
+   <li>Coffee</li>
+   <li>Tea</li>
+   <li>Milk</li>
+ </menu>
+  <meter value="35" min="0" max="50"></meter><br>
+  <meter value=".3"></meter><br>
+
+  <table class="table">
+  <thead>
+    <tr>
+      <th class="table">Month</th>
+      <th class="table">Savings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="table">January</td>
+      <td class="table">$100</td>
+    </tr>
+    <tr>
+      <td class="table">February</td>
+      <td class="table">$80</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="table">Sum</td>
+      <td class="table">$180</td>
+    </tr>
+  </tfoot>
+  </table><br>
+
+  <p>This is a veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryvery<wbr>longwordthatwillbreakatspecific<wbr>placeswhenthebrowserwindowisresized.</p><br>
+
+  <img src="images\butterfly.jpg" usemap="#image_map">
+   <map name="image_map">
+     <area alt="wings" href="images\wing.jpg" coords="266,198,77" shape="circle">
+   </map><br>
+  <caption>Click on the wings to see a picture of butterfly wing. The imagemap is in a circle shape. The area of circle can be calculated with the formula <var>π</var><var>r</var>^2</caption><br>
+
+  <video width="320" height="240" controls>
+  	<source src="videos\Lorem.mp4" type="video/mp4">
+  </video>
+
+
+  <p>These are sites I used for this project</p>
+
+  <nav>
+  	<a href="https://www.w3schools.com/" target="_blank">w3schools</a> |
+  	<a href="https://www.lipsum.com/" target="_blank">Lorem Ipsum</a> |
+  	<a href="https://www.pexels.com/" target="_blank">Pexels</a> |
+  	<a href="https://imagemap.org/" target="_blank">Imagemap</a> |
+  </nav>
+
+  <button onclick="showContent()">Show hidden content</button>
+
+  <template>
+  <h2>Bridge</h2>
+  <img src="images\bridge.jpg" width="214" height="204">
+</template>
+
+<script>
+function showContent() {
+  let temp = document.getElementsByTagName("template")[0];
+  let clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+</script>
+ 
+</body>
+</html>
